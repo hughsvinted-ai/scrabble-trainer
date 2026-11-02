@@ -1,0 +1,13 @@
+{
+  "name": "scrabble-word-trainer",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Mobile spaced-repetition trainer for Scrabble word lists",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build:data": "node scripts/build-data.js",
+    "icons": "python3 scripts/make-icons.py"
+  },
+  "engines": { "node": ">=18" }
+}
